@@ -15,21 +15,21 @@ Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na past
 #INSTRUÇÕES DE USO:
 - Faça o download do arquivo, abra o temrinal (CTRL + ALT + T) e digite o seguinte comando:
 
-    cd $HOME/Downloads && unzip del_captura_de_tela-master.zip
+        cd $HOME/Downloads && unzip del_captura_de_tela-master.zip
 
 - Para instalar os arquivos basta utilizar o comando:
 
-    cd $HOME/Downloads/del_captura_de_tela-master/ && python install.py
+        cd $HOME/Downloads/del_captura_de_tela-master/ && python install.py
 
 
 #AGENDANDO A TAREFA NO SISTEMA(crontab):
 - Para agendar esse script no sistema, utilize o seguinte comando no terminal:
 
-    crontab -e
+        crontab -e
 
 - Direcione o cursor até a ultima linha e adicione exatamente o seguinte comando:
 
-    */1 * * * * python /etc/script/del_captura_de_tela.py
+        */1 * * * * python /etc/script/del_captura_de_tela.py
 
     OBS: 
         - O "*/1" indica a quantidade de tempo em que será processado o arquivo. Ou seja, de um em um minuto será verificado e executado o processo na pasta.
@@ -37,12 +37,12 @@ Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na past
 
 - Salve as alterações feita no crontab:
 
-    CTRL + X
-    S (confirma)
-    Enter
+        CTRL + X
+        S (confirma)
+        Enter
 
 - Reinicialize a cron:
     
-    sudo service cron restart
+        sudo service cron restart
 
 -----------------------------------------------------------------------------------------------------------------------------------------------

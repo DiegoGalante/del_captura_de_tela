@@ -178,6 +178,7 @@ try:
 
 			except Exception, e:
 						print 'Não foi possível mover o arquivo da pasta $HOME/Downloads/del_captura_de_tela-master/ '
-						
+		
+	print 'Caso não souber como agenda a tarefa no crontab, clique no link abaixo (pressione CTRL e clique):\nhttps://github.com/DiegoGalante/del_captura_de_tela/edit/master/README.md\n'
 except Exception, e:
 	print 'Falha crítica! Informe o criador do script ou algum programador que possa resolver.'

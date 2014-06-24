@@ -15,7 +15,8 @@ OBSERVAÇÕES:
 INSTRUÇÕES DE USO:
 - Faça o download do arquivo, abra o temrinal (CTRL + ALT + T) e digite o seguinte comando:
 
-	cd $HOME/Downloads/
+	cd $HOME/Downloads
+	
 	unzip del_captura_de_tela-master.zip
 
 - Para adicionar a pasta no local adequado digite o segundo comando no terminal:
@@ -29,7 +30,9 @@ INSTRUÇÕES DE USO:
 - Verifique se os arquivos estão no local corretamente:
 
     cd /etc/script/
+    
     ls
+    
     del_captura_de_tela.py
 
 AGENDANDO A TAREFA NO SISTEMA(crontab):

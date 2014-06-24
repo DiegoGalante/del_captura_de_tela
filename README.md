@@ -15,7 +15,7 @@ OBSERVAÇÕES:
 INSTRUÇÕES DE USO:
 - Faça o download do arquivo, abra o temrinal (CTRL + ALT + T) e digite o seguinte comando:
 
-	unzip del_captura_de_tela-master.zip -d $HOME/Downloads
+	unzip del_captura_de_tela-master.zip -d $HOME/Downloads/
 
 - Para adicionar a pasta no local adequado digite o segundo comando no terminal:
 

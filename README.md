@@ -9,6 +9,9 @@ OBSERVAÇÕES:
 - Este arquivo foi testado e aprovado somente em Ubuntu 14.04. A utilização em qualquer outro sistema operacional é de total responsabilidade de quem fizer.
 - Apenas funciona (até o momento) para linguagem PT-BR, ou seja, o PrintScreen necessariamente precisa ter o seguinte nome: "Captura de tela de ..... 13:27:14" ou "Captura de tela de ..... 13:27:14 - ".
 
+!IMPORTANTE!
+- Caso quiser realmente capturar uma tela, renomeie a imagem logo em seguida de capturá-la pois corre o risco de esquecer e o processo deletar a mesma.
+
 INSTRUÇÕES DE USO:
 - Para adicionar a pasta no local adequado digite o segundo comando no terminal:
 
@@ -33,8 +36,13 @@ AGENDANDO A TAREFA NO SISTEMA(crontab):
 
     */1 * * * * python /etc/script/del_captura_de_tela.py
 
-    #OBS: O "*/1" indica a quantidade de tempo em que será processado o arquivo. Ou seja, de um em um minuto será verificado e executado o processo na pasta.
+    OBS: 
+        - O "*/1" indica a quantidade de tempo em que será processado o arquivo. Ou seja, de um em um minuto será verificado e executado o processo na pasta.
+        - Caso quiser que o processo seja realizado a cada 10 minutos, altere no comando do crontab o '*/1' para '*/10'.
 
 - Reinicialize a cron:
     
     sudo service cron restart
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+

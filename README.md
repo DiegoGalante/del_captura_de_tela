@@ -48,6 +48,12 @@ AGENDANDO A TAREFA NO SISTEMA(crontab):
         - O "*/1" indica a quantidade de tempo em que será processado o arquivo. Ou seja, de um em um minuto será verificado e executado o processo na pasta.
         - Caso quiser que o processo seja realizado a cada 10 minutos, altere no comando do crontab o '*/1' para '*/10'.
 
+- Salve as alterações feita no crontab:
+
+	CTRL + X
+	S (confirma)
+	Enter
+
 - Reinicialize a cron:
     
     sudo service cron restart

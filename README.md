@@ -13,11 +13,15 @@ OBSERVAÇÕES:
 - Caso quiser realmente capturar uma tela, renomeie a imagem logo em seguida de capturá-la pois corre o risco de esquecer e o processo deletar a mesma.
 
 INSTRUÇÕES DE USO:
+- Faça o download do arquivo, abra o temrinal (CRTL + ALT + T) e digite o seguinte comando:
+
+	unzip del_captura_de_tela-master.zip -d $HOME/Downloads
+
 - Para adicionar a pasta no local adequado digite o segundo comando no terminal:
 
     sudo mkdir /etc/script/
 
--Entre no diretório que está o arquivo "del_captura_de_tela.py", e o envie para a pasta script:
+-Entre no diretório que está o arquivo ( cd $HOME/Downloads/del_captura_de_tela-master/ ), e o envie para a pasta script:
 
     sudo mv del_captura_de_tela.py /etc/script/
 

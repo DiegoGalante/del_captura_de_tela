@@ -13,7 +13,7 @@ OBSERVAÇÕES:
 - Caso quiser realmente capturar uma tela, renomeie a imagem logo em seguida de capturá-la pois corre o risco de esquecer e o processo deletar a mesma.
 
 INSTRUÇÕES DE USO:
-- Faça o download do arquivo, abra o temrinal (CRTL + ALT + T) e digite o seguinte comando:
+- Faça o download do arquivo, abra o temrinal (CTRL + ALT + T) e digite o seguinte comando:
 
 	unzip del_captura_de_tela-master.zip -d $HOME/Downloads
 

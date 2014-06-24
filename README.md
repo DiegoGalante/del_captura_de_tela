@@ -15,28 +15,15 @@ OBSERVAÇÕES:
 INSTRUÇÕES DE USO:
 - Faça o download do arquivo, abra o temrinal (CTRL + ALT + T) e digite o seguinte comando:
 
-	cd $HOME/Downloads
-	
-	unzip del_captura_de_tela-master.zip
+	cd $HOME/Downloads && unzip del_captura_de_tela-master.zip
 
-- Para adicionar a pasta no local adequado digite o segundo comando no terminal:
+- Para instalar os arquivos basta utilizar o comando:
 
-	sudo mkdir /etc/script/
+	cd $HOME/Downloads/del_captura_de_tela-master/ && python install.py
 
--Entre no diretório que está o arquivo ( cd $HOME/Downloads/del_captura_de_tela-master/ ), e o envie para a pasta script:
-
-    sudo mv del_captura_de_tela.py /etc/script/
-
-- Verifique se os arquivos estão no local corretamente:
-
-    cd /etc/script/
-    
-    ls
-    
-    del_captura_de_tela.py
 
 AGENDANDO A TAREFA NO SISTEMA(crontab):
-- Para agendar esse script no sistema, abra o terminal e utilize o seguinte comando:
+- Para agendar esse script no sistema, utilize o seguinte comando no terminal:
 
     crontab -e
 
@@ -59,4 +46,3 @@ AGENDANDO A TAREFA NO SISTEMA(crontab):
     sudo service cron restart
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-

@@ -36,7 +36,7 @@ INSTRUÇÕES DE USO:
     del_captura_de_tela.py
 
 AGENDANDO A TAREFA NO SISTEMA(crontab):
-- Para agendar esse script no sistema, utilize o seguinte comando no terminal:
+- Para agendar esse script no sistema, abra o terminal e utilize o seguinte comando:
 
     crontab -e
 

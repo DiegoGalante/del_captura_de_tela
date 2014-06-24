@@ -21,7 +21,7 @@ INSTRUÇÕES DE USO:
 
 - Para adicionar a pasta no local adequado digite o segundo comando no terminal:
 
-    sudo mkdir /etc/script/
+	sudo mkdir /etc/script/
 
 -Entre no diretório que está o arquivo ( cd $HOME/Downloads/del_captura_de_tela-master/ ), e o envie para a pasta script:
 

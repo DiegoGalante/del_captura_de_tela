@@ -60,12 +60,13 @@ try:
 													os.system("sudo cp /etc/crontab-script /etc/crontab")
 													os.system("sudo rm /etc/crontab-script")
 													os.system("sudo rm /etc/crontab-backup")
-													print 'Crontab agendado no sistema com sucesso!'
+													os.system("cd $HOME/Downloads")
+													print '\nCrontab agendado no sistema com sucesso!'
 												else:
 													os.system("sudo cp /etc/crontab-backup /etc/crontab")
 													os.system("sudo rm /etc/crontab-script")
 													os.system("sudo rm /etc/crontab-backup")
-													print 'Comando já agendado no sistema. Arquivo não atualizado!\n'
+													print '\nComando já agendado no sistema. Arquivo não atualizado!\n'
 
 											except Exception, e:
 												print 'Não foi possível agendar o arquivo no sistema!'
@@ -105,12 +106,13 @@ try:
 													os.system("sudo cp /etc/crontab-script /etc/crontab")
 													os.system("sudo rm /etc/crontab-script")
 													os.system("sudo rm /etc/crontab-backup")
-													print 'Crontab agendado no sistema com sucesso!'
+													os.system("cd $HOME/Downloads")
+													print '\nCrontab agendado no sistema com sucesso!'
 												else:
 													os.system("sudo cp /etc/crontab-backup /etc/crontab")
 													os.system("sudo rm /etc/crontab-script")
 													os.system("sudo rm /etc/crontab-backup")
-													print 'Comando já agendado no sistema. Arquivo não atualizado!\n'
+													print '\nComando já agendado no sistema. Arquivo não atualizado!\n'
 
 											except Exception, e:
 												print 'Não foi possível agendar o arquivo no sistema!'
@@ -160,12 +162,13 @@ try:
 											os.system("sudo cp /etc/crontab-script /etc/crontab")
 											os.system("sudo rm /etc/crontab-script")
 											os.system("sudo rm /etc/crontab-backup")
-											print 'Crontab agendado no sistema com sucesso!'
+											os.system("cd $HOME/Downloads")
+											print '\nCrontab agendado no sistema com sucesso!'
 										else:
 											os.system("sudo cp /etc/crontab-backup /etc/crontab")
 											os.system("sudo rm /etc/crontab-script")
 											os.system("sudo rm /etc/crontab-backup")
-											print 'Comando já agendado no sistema. Arquivo não atualizado!\n'
+											print '\nComando já agendado no sistema. Arquivo não atualizado!\n'
 
 								except Exception, e:
 									print 'Não foi possível agendar o arquivo no sistema!'
@@ -206,7 +209,8 @@ try:
 											os.system("sudo cp /etc/crontab-script /etc/crontab")
 											os.system("sudo rm /etc/crontab-script")
 											os.system("sudo rm /etc/crontab-backup")
-											print 'Crontab agendado no sistema com sucesso!'
+											os.system("cd $HOME/Downloads")
+											print '\nCrontab agendado no sistema com sucesso!'
 										else:
 											os.system("sudo cp /etc/crontab-backup /etc/crontab")
 											os.system("sudo rm /etc/crontab-script")
@@ -272,12 +276,13 @@ try:
 												os.system("sudo cp /etc/crontab-script /etc/crontab")
 												os.system("sudo rm /etc/crontab-script")
 												os.system("sudo rm /etc/crontab-backup")
-												print 'Crontab agendado no sistema com sucesso!'
+												os.system("cd $HOME/Downloads")
+												print '\nCrontab agendado no sistema com sucesso!'
 											else:
 												os.system("sudo cp /etc/crontab-backup /etc/crontab")
 												os.system("sudo rm /etc/crontab-script")
 												os.system("sudo rm /etc/crontab-backup")
-												print 'Comando já agendado no sistema. Arquivo não atualizado!\n'
+												print '\nComando já agendado no sistema. Arquivo não atualizado!\n'
 
 									except Exception, e:
 										print 'Não foi possível agendar o arquivo no sistema!'
@@ -318,12 +323,13 @@ try:
 												os.system("sudo cp /etc/crontab-script /etc/crontab")
 												os.system("sudo rm /etc/crontab-script")
 												os.system("sudo rm /etc/crontab-backup")
-												print 'Crontab agendado no sistema com sucesso!'
+												os.system("cd $HOME/Downloads")
+												print '\nCrontab agendado no sistema com sucesso!'
 											else:
 												os.system("sudo cp /etc/crontab-backup /etc/crontab")
 												os.system("sudo rm /etc/crontab-script")
 												os.system("sudo rm /etc/crontab-backup")
-												print 'Comando já agendado no sistema. Arquivo não atualizado!\n'
+												print '\nComando já agendado no sistema. Arquivo não atualizado!\n'
 
 									except Exception, e:
 										print 'Não foi possível agendar o arquivo no sistema!'
@@ -336,7 +342,7 @@ try:
 						pass
 				else:
 					pass
-					#print 'Arquivo del não existe ema /etc/script/'
+
 			except Exception, e:
 				print 'Não foi possível criar a pasta script/ em /etc/'
 
@@ -380,12 +386,13 @@ try:
 										os.system("sudo cp /etc/crontab-script /etc/crontab")
 										os.system("sudo rm /etc/crontab-script")
 										os.system("sudo rm /etc/crontab-backup")
-										print 'Crontab agendado no sistema com sucesso!'
+										os.system("cd $HOME/Downloads")
+										print '\nCrontab agendado no sistema com sucesso!'
 									else:
 										os.system("sudo cp /etc/crontab-backup /etc/crontab")
 										os.system("sudo rm /etc/crontab-script")
 										os.system("sudo rm /etc/crontab-backup")
-										print 'Comando já agendado no sistema. Arquivo não atualizado!\n'
+										print '\nComando já agendado no sistema. Arquivo não atualizado!\n'
 
 							except Exception, e:
 								print 'Não foi possível agendar o arquivo no sistema!'
@@ -427,12 +434,13 @@ try:
 										os.system("sudo cp /etc/crontab-script /etc/crontab")
 										os.system("sudo rm /etc/crontab-script")
 										os.system("sudo rm /etc/crontab-backup")
-										print 'Crontab agendado no sistema com sucesso!'
+										os.system("cd $HOME/Downloads")
+										print '\nCrontab agendado no sistema com sucesso!'
 									else:
 										os.system("sudo cp /etc/crontab-backup /etc/crontab")
 										os.system("sudo rm /etc/crontab-script")
 										os.system("sudo rm /etc/crontab-backup")
-										print 'Comando já agendado no sistema. Arquivo não atualizado!\n'
+										print '\nComando já agendado no sistema. Arquivo não atualizado!\n'
 
 							except Exception, e:
 								print 'Não foi possível agendar o arquivo no sistema!'

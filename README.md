@@ -17,7 +17,7 @@ Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na past
 #INSTRUÇÕES DE USO:
 - Faça o download do arquivo, abra o temrinal (CTRL + ALT + T) e digite o seguinte comando:
 
-        unzip $HOME/Downloads/del_captura_de_tela-master.zip
+        cd $HOME/Downloads && unzip del_captura_de_tela-master.zip && cd $HOME/Downloads
 
 - Para instalar os arquivos basta utilizar o comando:
 

@@ -21,4 +21,4 @@ Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na past
 
 - Para instalar os arquivos basta utilizar o comando:
 
-        cd $HOME/Downloads/del_captura_de_tela-master/ && python install.py
+        python $HOME/Downloads/del_captura_de_tela-master/install.py

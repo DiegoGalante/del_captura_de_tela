@@ -4,10 +4,6 @@
 import os
 import subprocess
 
-import del_captura_de_tela
-import agendar_crontab
-
-
 try:
 	pasta = os.environ["HOME"]
 	user = pasta.split('/')

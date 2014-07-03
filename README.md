@@ -1,7 +1,7 @@
 LEIA-ME
 ===================
 
-Deleta ScreenShot(s) acidentai(s) para usuário de linux. Apenas testado e funcionando por enquanto no Ubuntu 14.04 e para PT-BR.
+Deleta automaticamente ScreenShots acidentais de 1 em 1 minuto para usuários linux. Apenas testado e funcionando por enquanto no Ubuntu 14.04 e para PT-BR.
 
 Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na pasta $HOME/Imagens/ 
 

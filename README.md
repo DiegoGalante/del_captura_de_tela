@@ -3,7 +3,9 @@ LEIA-ME
 
 Deleta automaticamente ScreenShots acidentais de 1 em 1 minuto para usuários linux. Apenas testado e funcionando por enquanto no Ubuntu 14.04 e para PT-BR.
 
-Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na pasta $HOME/Imagens/ 
+Caso quiser realmente capturar uma tela, renomeie a imagem logo em seguida de capturá-la pois corre o risco de esquecer e o processo deletar a mesma.
+
+Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na pasta $HOME/Imagens/
 
 #INSTRUÇÕES DE USO:
 - Faça o download do arquivo, abra o temrinal (CTRL + ALT + T) e digite o seguinte comando:
@@ -19,6 +21,3 @@ Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na past
 - Este arquivo foi testado e aprovado somente em Ubuntu 14.04.
 - A utilização em qualquer outro sistema operacional é de total responsabilidade de quem fizer.
 - Apenas funciona (até o momento) para linguagem PT-BR, ou seja, o PrintScreen necessariamente precisa ter o seguinte nome: "Captura de tela de ..... 13:27:14" ou "Captura de tela de ..... 13:27:14 - ".
-
-#IMPORTANTE!
-- Caso quiser realmente capturar uma tela, renomeie a imagem logo em seguida de capturá-la pois corre o risco de esquecer e o processo deletar a mesma.

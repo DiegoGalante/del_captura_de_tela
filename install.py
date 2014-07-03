@@ -7,7 +7,9 @@ import subprocess
 try:
 	pasta = os.environ["HOME"]
 	user = pasta.split('/')
-
+	
+	subprocess.call("sudo cd /etc/", shell=True)
+	
 	download = os.listdir(pasta+"/Downloads/")
 	print '################################################################################'
 	print '# Iniciando instalação do script                                               #'

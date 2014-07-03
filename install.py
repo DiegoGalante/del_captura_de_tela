@@ -30,7 +30,7 @@ try:
 						if 'script' in diretorio:
 							try:
 								os.system('cd $HOME/Downloads/del_captura_de_tela-master/ && sudo mv del_captura_de_tela.py /etc/script/')
-								print '# Arquivo adicionado na pasta com sucesso! 	  		               #'
+								print '# Arquivo adicionado na pasta com sucesso! 	  		                #'
 
 								diretorio_script = os.listdir('/etc/script/')
 								if 'del_captura_de_tela.py' in diretorio_script:
@@ -408,3 +408,7 @@ try:
 
 except Exception, e:
 	print 'Falha crítica! Informe o criador do script ou algum programador que possa resolver.'
+
+
+
+

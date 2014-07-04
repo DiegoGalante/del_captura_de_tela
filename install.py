@@ -40,7 +40,7 @@ try:
 
 										user = pasta.split('/')
 										diretorio_etc = os.listdir("/etc/")
-										comando = "*/1 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+										comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
 
 										if 'crontab' in diretorio_etc:
 											try:
@@ -99,7 +99,7 @@ try:
 
 							user = pasta.split('/')
 							diretorio_etc = os.listdir("/etc/")
-							comando = "*/1 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+							comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
 
 							if 'crontab' in diretorio_etc:
 								try:
@@ -148,7 +148,7 @@ try:
 						if 'script' in diretorio and 'del_captura_de_tela.py' in diretorio_script:
 							user = pasta.split('/')
 							diretorio_etc = os.listdir("/etc/")
-							comando = "*/1 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+							comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
 
 							if 'crontab' in diretorio_etc:
 								try:
@@ -220,7 +220,7 @@ try:
 
 										user = pasta.split('/')
 										diretorio_etc = os.listdir("/etc/")
-										comando = "*/1 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+										comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
 
 										if 'crontab' in diretorio_etc:
 											try:
@@ -290,7 +290,7 @@ try:
 
 								user = pasta.split('/')
 								diretorio_etc = os.listdir("/etc/")
-								comando = "*/1 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+								comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
 
 								if 'crontab' in diretorio_etc:
 									try:
@@ -346,7 +346,7 @@ try:
 
 							user = pasta.split('/')
 							diretorio_etc = os.listdir("/etc/")
-							comando = "*/1 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+							comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
 
 							if 'crontab' in diretorio_etc:
 								try:

@@ -30,12 +30,11 @@ try:
 						if 'script' in diretorio:
 							try:
 								os.system('cd $HOME/Downloads/del_captura_de_tela-master/ && sudo mv del_captura_de_tela.py /etc/script/')
-								print '# Arquivo adicionado na pasta com sucesso! 	  		               #'
+								print '# Arquivo adicionado na pasta com sucesso! 	  		                #'
 
 								diretorio_script = os.listdir('/etc/script/')
 								if 'del_captura_de_tela.py' in diretorio_script:
 									try:
-										os.system('cd $HOME/Downloads/ && rm -r del_captura_de_tela-master/')
 										print '# Arquivo atualizado ..                                                        #'
 										print '# Agendando arquivo no sistema ..                                              #'
 
@@ -96,7 +95,6 @@ try:
 					if 'del_captura_de_tela.py' not in diretorio_script:
 						try:
 							os.system('cd $HOME/Downloads/del_captura_de_tela-master/ && sudo mv del_captura_de_tela.py /etc/script/')
-							os.system('cd $HOME/Downloads/ && rm -r del_captura_de_tela-master/')
 							print '# Verificando Crontab .. 	  		                               #'
 
 							user = pasta.split('/')
@@ -217,7 +215,6 @@ try:
 								diretorio_script = os.listdir('/etc/script/')
 								if 'del_captura_de_tela.py' in diretorio_script:
 									try:
-										os.system('cd $HOME/Downloads/ && rm -r del_captura_de_tela-master/')
 										print '# Arquivo atualizado ..                                                        #'
 										print '# Agendando arquivo no sistema ..                                              #'
 
@@ -284,13 +281,11 @@ try:
 				if 'script' in diretorio and 'del_captura_de_tela.py' in diretorio_script:
 					try:
 						os.system('cd $HOME/Downloads/del_captura_de_tela-master/ && sudo mv del_captura_de_tela.py /etc/script/')
-						print '# Arquivo atualizado com sucesso! 	  		                        #'
+						print '# Arquivo atualizado com sucesso! 	  		                       #'
 
 						diretorio_script = os.listdir('/etc/script/')
 						if 'del_captura_de_tela.py' in diretorio_script:
 							try:
-								os.system('cd $HOME/Downloads/ && rm -r del_captura_de_tela-master/')
-								print '# Arquivo atualizado ..                                                        #'
 								print '# Agendando arquivo no sistema ..                                              #'
 
 								user = pasta.split('/')
@@ -346,7 +341,6 @@ try:
 					if 'del_captura_de_tela.py' not in diretorio_script:
 						try:
 							os.system('cd $HOME/Downloads/del_captura_de_tela-master/ && sudo mv del_captura_de_tela.py /etc/script/')
-							os.system('cd $HOME/Downloads/ && rm -r del_captura_de_tela-master/')
 							print '# Arquivo atualizado com sucesso! 	  		                       #'
 							print '# Verificando Crontab .. 	  		                               #'
 
@@ -398,6 +392,10 @@ try:
 
 			except Exception, e:
 				pass #EXISTE A PASTA JÁ DESZIPADA NO DOWNLOADS
+	try:
+		os.system('cd $HOME/Downloads/ && rm -r del_captura_de_tela-master/')
+	except Exception, e:
+		pass
 
 	print '\n################################################################################'
 	print '# Lembre-se de compartilhar esse arquivo com alguem que tem o mesmo problema.  #'
@@ -409,7 +407,3 @@ try:
 
 except Exception, e:
 	print 'Falha crítica! Informe o criador do script ou algum programador que possa resolver.'
-
-
-
-

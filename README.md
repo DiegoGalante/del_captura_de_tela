@@ -1,7 +1,7 @@
 LEIA-ME
 ===================
 
-Deleta automaticamente ScreenShots acidentais de 1 em 1 minuto para usuários linux. Apenas testado e funcionando por enquanto no Ubuntu 14.04 e para PT-BR.
+Deleta automaticamente ScreenShots acidentais de 5 em 5 minutos para usuários linux. Apenas testado e funcionando por enquanto no Ubuntu 14.04 e para PT-BR.
 
 Caso quiser realmente capturar uma tela, renomeie a imagem logo em seguida de capturá-la pois corre o risco de esquecer e o processo deletar a mesma.
 

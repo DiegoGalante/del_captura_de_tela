@@ -7,7 +7,7 @@ Caso quiser realmente capturar uma tela, renomeie a imagem logo em seguida de ca
 
 Arquivo responsável por verificar e deletar o(s) ScreenShoot(s) contido na pasta $HOME/Imagens/
 
-#Instalação:
+#INSTALAÇÃO:
 - Faça o download do arquivo, abra o temrinal (CTRL + ALT + T) e digite o seguinte comando:
 
         cd $HOME/Downloads && unzip del_captura_de_tela-master.zip

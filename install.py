@@ -398,7 +398,7 @@ try:
 
 			except Exception, e:
 				pass #EXISTE A PASTA JÁ DESZIPADA NO DOWNLOADS
-	os.system('rm del_captura_de_tela-master.zip')
+
 	print '\n################################################################################'
 	print '# Lembre-se de compartilhar esse arquivo com alguem que tem o mesmo problema.  #'
 	print "# Em breve será feito melhorias neste arquivo, fiquem ligados. Enjoy! (:       #"

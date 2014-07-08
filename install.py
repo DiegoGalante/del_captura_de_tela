@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import os
-import subprocess
 
 try:
 	pasta = os.environ["HOME"]
@@ -12,7 +11,6 @@ try:
 	print '################################################################################'
 	print '# Iniciando instalação do script                                               #'
 	print '################################################################################\n'
-	#'
 
 	if 'del_captura_de_tela-master' not in download:
 		if 'del_captura_de_tela-master.zip' in download:
@@ -41,6 +39,7 @@ try:
 										user = pasta.split('/')
 										diretorio_etc = os.listdir("/etc/")
 										comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+										comando_ = "python /etc/script/del_captura_de_tela.py"
 
 										if 'crontab' in diretorio_etc:
 											try:
@@ -54,10 +53,10 @@ try:
 												words = line.split("#")
 												words = line.split("\n")
 
-												if comando not in words:
+												if comando_ not in words:
 													myfile.write("\n#Executa script de deletar screenshots.\n")
 													myfile.write(comando+"\n")
-													myfile.write("#\n")
+													myfile.write("\n")
 													myfile.close()
 													ok = True
 
@@ -100,6 +99,7 @@ try:
 							user = pasta.split('/')
 							diretorio_etc = os.listdir("/etc/")
 							comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+							comando_ = "python /etc/script/del_captura_de_tela.py"
 
 							if 'crontab' in diretorio_etc:
 								try:
@@ -113,10 +113,10 @@ try:
 									words = line.split("#")
 									words = line.split("\n")
 
-									if comando not in words:
+									if comando_ not in words:
 										myfile.write("\n#Executa script de deletar screenshots.\n")
 										myfile.write(comando+"\n")
-										myfile.write("#\n")
+										myfile.write("\n")
 										myfile.close()
 										ok = True
 									else:
@@ -149,6 +149,7 @@ try:
 							user = pasta.split('/')
 							diretorio_etc = os.listdir("/etc/")
 							comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+							comando_ = "python /etc/script/del_captura_de_tela.py"
 
 							if 'crontab' in diretorio_etc:
 								try:
@@ -162,10 +163,10 @@ try:
 									words = line.split("#")
 									words = line.split("\n")
 
-									if comando not in words:
+									if comando_ not in words:
 										myfile.write("\n#Executa script de deletar screenshots.\n")
 										myfile.write(comando+"\n")
-										myfile.write("#\n")
+										myfile.write("\n")
 										myfile.close()
 										ok = True
 									else:
@@ -221,6 +222,7 @@ try:
 										user = pasta.split('/')
 										diretorio_etc = os.listdir("/etc/")
 										comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+										comando_ = "python /etc/script/del_captura_de_tela.py"
 
 										if 'crontab' in diretorio_etc:
 											try:
@@ -234,10 +236,10 @@ try:
 												words = line.split("#")
 												words = line.split("\n")
 
-												if comando not in words:
+												if comando_ not in words:
 													myfile.write("\n#Executa script de deletar screenshots.\n")
 													myfile.write(comando+"\n")
-													myfile.write("#\n")
+													myfile.write("\n")
 													myfile.close()
 													ok = True
 
@@ -291,6 +293,7 @@ try:
 								user = pasta.split('/')
 								diretorio_etc = os.listdir("/etc/")
 								comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+								comando_ = "python /etc/script/del_captura_de_tela.py"
 
 								if 'crontab' in diretorio_etc:
 									try:
@@ -304,10 +307,10 @@ try:
 										words = line.split("#")
 										words = line.split("\n")
 
-										if comando not in words:
+										if comando_ not in words:
 											myfile.write("\n#Executa script de deletar screenshots.\n")
 											myfile.write(comando+"\n")
-											myfile.write("#\n")
+											myfile.write("\n")
 											myfile.close()
 											ok = True
 										else:
@@ -347,6 +350,7 @@ try:
 							user = pasta.split('/')
 							diretorio_etc = os.listdir("/etc/")
 							comando = "*/3 * * * * "+user[2]+" python /etc/script/del_captura_de_tela.py"
+							comando_ = "python /etc/script/del_captura_de_tela.py"
 
 							if 'crontab' in diretorio_etc:
 								try:
@@ -360,10 +364,10 @@ try:
 									words = line.split("#")
 									words = line.split("\n")
 
-									if comando not in words:
+									if comando_ not in words:
 										myfile.write("\n#Executa script de deletar screenshots.\n")
 										myfile.write(comando+"\n")
-										myfile.write("#\n")
+										myfile.write("\n")
 										myfile.close()
 										ok = True
 									else:
